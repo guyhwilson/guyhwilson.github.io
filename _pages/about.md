@@ -19,7 +19,7 @@ People providing me validation
  - NSF Graduate Fellowship
  - Regina Casper Graduate Fellowship
  - parents
- - [Smitha](smithamilli.com)
+ - [Smitha](https://smithamilli.com)
  - Tracy 
 
 Contact Me

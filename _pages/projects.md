@@ -7,18 +7,22 @@ author_profile: true
 
 ## Science-y Stuff
 
+**Neural ensemble dynamics in dorsal motor cortex during speech in people with paralysis**, eLife (2019) \\
+S. Stavisky, F. Willett, G. Wilson, B. Murphy, P. Rezaii, D. Avansino, W. Memberg, \\  
+J. Miller, R. Kirsch, L. Hochberg, A. Ajiboye, K. Shenoy, J. Henderson
 
-### 2017 
-[Prefrontal cortex modulates posterior alpha oscillations](http://www.pnas.org/content/early/2017/08/09/1705965114.full), PNAS 
+
+
+**Prefrontal cortex modulates posterior alpha oscillations**, [PNAS](http://www.pnas.org/content/early/2017/08/09/1705965114.full) (2017) \\
+R. Helfrich, M.  Huang, G. Wilson, R. Knight
 
 
 
 ## Other
 
 
-### 2015 
 
-[Down the Rabbit Hole](https://medium.com/addiction-unscripted/down-the-rabbit-hole-96b121a3bfc5), Addiction Unscripted 
+[Down the Rabbit Hole](https://medium.com/addiction-unscripted/down-the-rabbit-hole-96b121a3bfc5), Addiction Unscripted (2015)
 
 
 <!-- {% if author.googlescholar %}

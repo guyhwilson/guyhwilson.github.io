@@ -7,8 +7,13 @@ author_profile: true
 
 ## Science-y Stuff
 
-**Neural ensemble dynamics in dorsal motor cortex during speech in people with paralysis**, eLife (2019) \\
-S. Stavisky, F. Willett, G. Wilson, B. Murphy, P. Rezaii, D. Avansino, W. Memberg, \\  
+**Decoding spoken English phonemes from intracortical electrode arrays in dorsal precentral gyrus**, [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.06.30.180935v1) (2020) \\
+G. Wilson, S. Stavisky, F. Willett, D. Avansino, L. Hochberg, J. Henderson, S. Druckmann, K. Shenoy
+
+
+
+**Neural ensemble dynamics in dorsal motor cortex during speech in people with paralysis**, [eLife](https://elifesciences.org/articles/46015) (2019) \\
+S. Stavisky, F. Willett, G. Wilson, B. Murphy, P. Rezaii, D. Avansino, W. Memberg,  
 J. Miller, R. Kirsch, L. Hochberg, A. Ajiboye, K. Shenoy, J. Henderson
 
 

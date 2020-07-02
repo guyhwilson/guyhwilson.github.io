@@ -10,4 +10,4 @@ author_profile: true
 
 ### UC Berkeley
 
-- instructor for [Neurotechnology Research Review Decal](https://decal.berkeley.edu/courses/4068), 2018
+ - Instructor (student-run class). [Psych 98/198: Neurotechnology Research Review](https://decal.berkeley.edu/courses/4068). Spring 2018

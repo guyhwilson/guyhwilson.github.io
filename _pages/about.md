@@ -12,7 +12,7 @@ I’m a second year PhD student at Stanford co-advised by [Shaul Druckmann](http
 
 Saunders Mac Lane, a mathematician and co-founder of category theory, once described his work as “abstract nonsense.” I think I fall roughly in the same boat as far as my specific interests but with some hope of ultimate salvation. I’m interested in algebraic topology and its applications in data analysis, especially in neuroscience. This includes machinery developed for studying structural features of data, such as persistent homology, as well as theoretical considerations and limitations arising in commonly used methods (e.g I love [this piece](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)). 
 
-In the biological realm, I’m fascinated by neural population dynamics underlying uniquely human traits such as language and speech. My research aims to 1) examine some of the basic motor neuroscience underlying speech production and 2) develope speech decoders for eventual use in patients who are unable to talk.
+In the biological realm, I’m fascinated by neural population dynamics underlying uniquely human traits such as language and speech. My research aims to 1) examine some of the basic motor neuroscience underlying speech production and 2) develop speech decoders for eventual use in patients who are unable to talk.
 
 
 People providing me validation

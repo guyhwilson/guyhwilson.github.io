@@ -7,7 +7,7 @@ author_profile: true
 
 ## Science-y Stuff
 
-**Decoding spoken English phonemes from intracortical electrode arrays in dorsal precentral gyrus**, [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.06.30.180935v1) (2020) \\
+**Decoding spoken English from intracortical electrode arrays in dorsal precentral gyrus**, [Journal of Neural Engineering](https://iopscience.iop.org/article/10.1088/1741-2552/abbfef) (2020) \\
 G. Wilson, S. Stavisky, F. Willett, D. Avansino, L. Hochberg, J. Henderson, S. Druckmann, K. Shenoy
 
 

@@ -5,7 +5,6 @@ permalink: /projects/
 author_profile: false
 ---
 
-## Science-y Stuff
 
 
 **Decoding spoken English from intracortical electrode arrays in dorsal precentral gyrus**,  
@@ -27,11 +26,6 @@ R. Helfrich, M.  Huang, G. Wilson, R. Knight
 
 
 
-## Other
-
-
-
-[Down the Rabbit Hole](https://medium.com/addiction-unscripted/down-the-rabbit-hole-96b121a3bfc5), Addiction Unscripted (2015)
 
 
 <!-- {% if author.googlescholar %}

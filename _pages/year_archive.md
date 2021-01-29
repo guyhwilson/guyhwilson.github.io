@@ -5,7 +5,6 @@ author_profile: false
 permalink: /blog/
 ---
 
-<link href="../../../assets/css/blog.css" rel="stylesheet" />
 
 
   
@@ -14,4 +13,12 @@ permalink: /blog/
 
 
 Kicking off this blog with a list of things I should probably do next year. 
+
+
+## [Down the Rabbit Hole](https://medium.com/addiction-unscripted/down-the-rabbit-hole-96b121a3bfc5)  
+<span style="color:grey">April 9, 2015 </span>
+
+
+External link to an older piece arguing for decriminalization of psychedelics. 
+
 

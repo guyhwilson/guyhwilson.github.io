@@ -22,12 +22,12 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div style="margin:0; padding-top:2em; padding-left:3em; padding-right: 3em">
+    <div style="margin:0; padding-top:2em; padding-left: 10em; padding-right: 10em">
 
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <h1 class="page__title">{{ page.title }}</h1>
       {% endunless %}
-
+ 
       {{ content }}
     </div>
 

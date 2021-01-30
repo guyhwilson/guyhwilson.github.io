@@ -2,7 +2,7 @@
 layout: post
 title: 'Are some languages more efficient than others?'
 author_profile: false
-date: 2020-12-29
+date: 2021-1-30
 permalink: /posts/2021/1/blog-post-2/
 ---
 
@@ -43,8 +43,9 @@ $$H(X) = \sum_{i} P(x_{i}) \log_{2} \frac{1}{p(x_{i})}$$
 
 So this is just an average! But of what? If we look closer at the $\log$ term, we'll notice that it's very small when $x_{i}$ is common, and by contrast really big when $x_{i}$ is rare. This is called *self-information* and measures our "surprise" about seeing an event $x_{i}$. The base doesn't really matter but it's common to use base-2, in which case the resulting measurement is in "bits" [[3]](#3). So the entropy $H(x)$ of a random variable measures our average surprise about the variable. It turns out that, for a discrete probability distribution over a finite set of outcomes, this property is maximized with a uniform distribution over events. This kinda makes sense. If we knew that a coin will flip "heads" with probability 1 then a new flip wouldn't be surprising. By contrast, if heads and tails were equally likely then it's impossible to predict the upcoming flip any better than chance (at least in the long run). In that sense, a 50/50 split is the one that will surprise us the most on average.
 
-When we think about communicating a discrete set of symbols (hint, hint), then a similar intuition yields. Suppose Bob and Sally can write messages to each other using a 26-character alphabet. In their language, "x" is always followed by a "y". If Sally sends a message to Bob containing an "x", then it's not at all surprising that the following letter is a "y". In fact, it's not giving Bob any information at all since he could completely predict it once he saw the "x" in her message. 
+When we think about communicating a discrete set of symbols (hint, hint), then a similar intuition yields. Suppose Bob and Sally write messages to each other in English. Sally writes a word that starts with "q". What's the next letter? 
 
+Oh, it's "u"? I'm shocked! Not really of course - that was a very likely outcome so it doesn't tell us much about the word [4]][#4]. 
 
 
 ### Study setup 
@@ -62,7 +63,7 @@ The participants were asked to read a corpus – a set of writing – in their l
 
 One important note here is that the researchers used the *audio text prompts* to estimate the number of syllables instead of the spoken audio for each participant. This ignores speaker-specific reductions that simplify words by dropping syllables, such as "probably" --> "prob'bly" in English. On the other hand, the speakers were asked to speak clearly and pronounce sentences fully. The authors also argue that, by focusing on the number of syllables in the corpus, their estimate "emphasize[s] the cross-language
 comparability of the information encoded and retrievable (i.e.,
-the canonical syllables)". [ONE SENTENCE THOUGHT]
+the canonical syllables)".
 
 
 With these sentences, they then examined the extra information – reflected by uncertainty – of an upcoming syllable given the previous syllable. This is the *information density* (ID) from earlier. Let's mess around with it a bit:
@@ -86,7 +87,7 @@ $$ID = \sum_{x} p(x) H(Y | X = x) = H( Y| X) $$
 
 The resulting ID measures how much new information each consecutive syllable provides, conditioned on the previously uttered syllable. Multiplying this value by the SR (the number of syllables a second), yields the information rate (IR), which measures the amount of information spoken per second. 
 
-One might ask: why not condition on more past syllables? Wouldn't that better reflect how surprised we should be at the current syllable? In short, the authors argue that 1) yes, future followups could do this but 2) their measure is a pretty decent one given that it correlates strongly with yet another meaure of information density which they tried [[4]](#4). They also note that they were constrained by some of the text corpora (recall that IDs are estimated from a separate dataset than the oral corpus), which had only word frequencies. I think one other complicating factor might be that you need to calculate $O(k^{n})$ n-gram frequencies for a k-syllable language and a context window of length $k$. That might get difficult fast - on both memory storage and on accurate estimation - but I'm not entirely sure.
+One might ask: why not condition on more past syllables? Wouldn't that better reflect how surprised we should be at the current syllable? In short, the authors argue that 1) yes, future followups could do this but 2) their measure is a pretty decent one given that it correlates strongly with yet another meaure of information density which they tried [[5]](#5). They also note that they were constrained by some of the text corpora (recall that IDs are estimated from a separate dataset than the oral corpus), which had only word frequencies. I think one other complicating factor might be that you need to calculate $O(k^{n})$ n-gram frequencies for a k-syllable language and a context window of length $k$. That might get difficult fast - on both memory storage and on accurate estimation - but I'm not entirely sure.
 
 
 ### Redundancy-efficiency tradeoffs 
@@ -100,7 +101,6 @@ For all languages in this study, IR values seemed to hover around ~ 40 and subse
     	Density plots showing estimates of syllable rate (SR) and information rate (IR) for each language (rows). Note the wide variance in SR values relative to IR values, which tend to cluster around 40. Figure from <a href = "https://www.ncbi.nlm.nih.gov/pubmed/32047854"> (Coupé et al. 2019) </a>
     </figcaption>
 </figure>
-
 
 
 
@@ -124,8 +124,11 @@ I think one major question I have about the framework is what sort of gulf divid
 
 <a name="3"> [3] </a> Base-10 is also sometimes used, in which case the units are "Shannons".
 
+<a name="4"> [4] </a> We at least know that it's not a *qindar*:
 
-<a name="3"> [3] </a> They also tested a "syntagmatic density of information ratio" (SDIR), which is just how much less compression is required to encode the oral corpus relative to some target language (in this case, Vietnamese). The idea here is that the oral corpus texts are semantically similar, so direct comparisons based on syllable length can roughly approximate information density. For a language $L$ with $NS_{t}^{L}$ syllables on oral corpus text $t$, its overall SDIR is: 
+(ˈkɪntɑː ) or qintar (kɪnˈtɑː ) noun plural qindarka (-ˈdɑːkə) or -tarka (-ˈtɑːkə) an Albanian monetary unit worth one hundredth of a lek.
+
+<a name="5"> [5] </a> They also tested a "syntagmatic density of information ratio" (SDIR), which is just how much less compression is required to encode the oral corpus relative to some target language (in this case, Vietnamese). The idea here is that the oral corpus texts are semantically similar, so direct comparisons based on syllable length can roughly approximate information density. For a language $L$ with $NS_{t}^{L}$ syllables on oral corpus text $t$, its overall SDIR is: 
 
 $$ SDIR^{L} = \frac{1}{15} \sum_{i=1}^{15} \frac{NS^{VIE}_{i}}{NS_{i}^{L}} $$
 

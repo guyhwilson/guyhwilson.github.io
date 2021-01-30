@@ -31,7 +31,7 @@ Language is a fundamentally human trait that has enabled people to organize into
 
  With all this variation, it’s natural to ask whether or not different languages are more or less efficient at communicating information. In a recent new paper titled ["Different languages, similar encoding efficiency: Comparable information rates across the human communicative niche"](https://www.ncbi.nlm.nih.gov/pubmed/32047854) [[1]](#1), some researchers tackled this exact question using information theory as a framework. 
 
- This framework is key to the results, and it's a fascinating area that touches on so many other scientific fields, so I'll try to give a quick overview here (feel free to skip if you're already comfortable). The basic idea is to ground something as abstract as "information" into something a bit more concrete that can then be manipulated mathematically. In this case, as a statistical measure of uncertainty [[2]](#2). This perspective shift revolutionized communication technologies by enabling a common language for performance comparisons. It has also provided theoretical insights into [noise reduction]() and [upper limits on information compression]().
+ This framework is key to the results, and it's a fascinating area that touches on so many other scientific fields, so I'll try to give a quick overview here (feel free to skip if you're already comfortable). The basic idea is to ground something as abstract as "information" into something a bit more concrete that can then be manipulated mathematically. In this case, as a statistical measure of uncertainty [[2]](#2). This perspective shift revolutionized communication technologies by enabling a common language for performance comparisons. It has also provided theoretical insights into [noise reduction](https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem) and [upper limits on information compression](https://en.wikipedia.org/wiki/Shannon%27s_source_coding_theorem#Source_coding_theorem).
 
 
 ### Getting at "information"
@@ -45,7 +45,7 @@ So this is just an average! But of what? If we look closer at the $\log$ term, w
 
 When we think about communicating a discrete set of symbols (hint, hint), then a similar intuition yields. Suppose Bob and Sally write messages to each other in English. Sally writes a word that starts with "q". What's the next letter? 
 
-Oh, it's "u"? I'm shocked! Not really of course - that was a very likely outcome so it doesn't tell us much about the word [4]][#4]. 
+Oh, it's "u"? I'm shocked! Not really of course - that was a very likely outcome so it doesn't tell us much about the word [[4]][#4]. 
 
 
 ### Study setup 

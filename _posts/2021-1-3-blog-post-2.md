@@ -45,7 +45,7 @@ So this is just an average! But of what? If we look closer at the $\log$ term, w
 
 When we think about communicating a discrete set of symbols (hint, hint), then a similar intuition yields. Suppose Bob and Sally write messages to each other in English. Sally writes a word that starts with "q". What's the next letter? 
 
-Oh, it's "u"? I'm shocked! Not really of course - that was a very likely outcome so it doesn't tell us much about the word [[4]](#4). 
+Oh, it's "u"? I'm shocked! Not really of course - that was a very likely outcome so it doesn't tell us much about the word [[4]](#4). We aren't eliminating very many possibilities by observing this letter. 
 
 
 ### Study setup 

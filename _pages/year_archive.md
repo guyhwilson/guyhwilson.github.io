@@ -9,6 +9,8 @@ permalink: /blog/
 
 <link href="../../../assets/css/blog.css" rel="stylesheet" />
 
+
+
 ## [Are some languages more efficient than others?](/posts/2021/1/blog-post-2/)  
 <span style="color:grey">Jan 30, 2021 </span>
 

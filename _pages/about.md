@@ -24,5 +24,5 @@ People providing me validation
 
 Contact Me
 ======
-Feel free to drop me an email at: firstname + h + lastname [at] stanford [dot] edu
+Feel free to drop me an email at: firstnameletter + h + lastname [at] stanford [dot] edu
 

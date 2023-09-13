@@ -8,10 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I’m a fourth year PhD student at Stanford, co-advised by [Shaul Druckmann](https://www.druckmannlab.com/) and [Krishna Shenoy](https://nptl.stanford.edu/), where I work on brain-computer interfaces (BCIs) for restoring communication. Before that, I studied molecular biology and mathematics at UC Berkeley. 
+I’m a postdoctoral scholar at the Stanford Neuroprosthetics Translational Laboratory (NPTL), where I also did my PhD work with [Krishna Shenoy](https://nptl.stanford.edu/) and [Shaul Druckmann](https://www.druckmannlab.com/). Before that, I studied molecular Before that, I studied molecular biology and mathematics at UC Berkeley, where I also learned that California has the best weather in the country.
 
 My research focuses on translating basic science into performant BCI systems, leveraging unparalleled access to high spatiotemporal resolution signals from inside the brain. This includes prototyping speech decoding systems, as well as building robust algorithms that can fare against nonstationary signals, with the ultimate aim of helping move BCIs from the lab and into the clinic.
-
 
 
 ## People providing me validation

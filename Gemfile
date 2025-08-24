@@ -26,3 +26,5 @@ group :jekyll_plugins do
   gem 'hawkins'
   gem 'gemoji' 
 end
+
+gem "webrick", "~> 1.7"

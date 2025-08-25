@@ -2,23 +2,31 @@
 permalink: /
 title: "Hi, I'm Guy"
 excerpt: "About me"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I’m a postdoctoral scholar at the Stanford Neuroprosthetics Translational Laboratory (NPTL), where I also did my PhD work with [Krishna Shenoy](https://nptl.stanford.edu/) and [Shaul Druckmann](https://www.druckmannlab.com/). Before that, I studied molecular biology and mathematics at UC Berkeley, where I also learned that California has the best weather in the country.
+I work on high bandwidth interfaces.
 
-My research focuses on translating basic science into performant BCI systems, leveraging unparalleled access to high spatiotemporal resolution signals from inside the brain. This includes prototyping speech decoding systems, as well as building robust algorithms that can fare against nonstationary signals, with the ultimate aim of helping move BCIs from the lab and into the clinic.
+Before this, I was a postdoctoral scholar at the Stanford Neuroprosthetics Translational Laboratory (NPTL), where I also did my PhD work with [Krishna Shenoy](https://nptl.stanford.edu/) and [Shaul Druckmann](https://www.druckmannlab.com/). I worked on intracortical brain machine interfaces, building algorithms for robustly decoding arm movements and speech from brain activity.
 
+Before that, I studied molecular biology and mathematics at UC Berkeley, where I also learned that California has the best weather in the country.
 
-## People providing me validation
- - NSF Graduate Fellowship
- - Regina Casper Graduate Fellowship
- - parents
- - [Smitha](https://smithamilli.com), Tracy
 
 ## Contact Me
 Feel free to drop me an email at: firstname dot h dot lastname [at] gmail [dot] com
+
+<div style="margin-top: 1em;">
+  <a href="https://github.com/guyhwilson" target="_blank" style="margin-right: 1em; text-decoration: none;">
+    <i class="fab fa-github" style="font-size: 1.5em;"></i>
+  </a>
+  <a href="https://linkedin.com/in/guy-wilson/" target="_blank" style="margin-right: 1em; text-decoration: none;">
+    <i class="fab fa-linkedin" style="font-size: 1.5em;"></i>
+  </a>
+  <a href="https://twitter.com/xoxo_meme_queen" target="_blank" style="text-decoration: none;">
+    <i class="fab fa-twitter" style="font-size: 1.5em;"></i>
+  </a>
+</div>
 

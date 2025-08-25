@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Guy Wilson"
-  avatar           : "bio.jpeg"
-  bio              : "Postdoc in brain-machine interfaces"
+#  avatar           : "bio.jpeg"
+#  bio              : "Postdoc in brain-machine interfaces"
   location         : "San Francisco, CA"
   employer         :
 # googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -189,7 +189,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _teaching
   - scope:
       path: ""

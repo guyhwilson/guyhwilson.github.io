@@ -3,11 +3,11 @@ main:
   - title: "About"
     url: / 
     
-  - title: "Google Scholar"
-    url: https://scholar.google.com/citations?user=7QQ8iUMAAAAJ&hl=en
-        
   - title: "Blog"
     url: /blog/
+    
+  - title: "Google Scholar"
+    url: https://scholar.google.com/citations?user=7QQ8iUMAAAAJ&hl=en
 
 #  - title: "Guide"
 #    url: /markdown/
